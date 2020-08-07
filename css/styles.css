@@ -7,7 +7,8 @@ body {
 }
 
 .container-fluid{
-    padding: 3% 15%;;
+    padding: 3% 15% 7%;
+
 }
 
 /* Nav Bar */
@@ -23,6 +24,7 @@ body {
 
 .nav-item {
     padding: 0 18px
+
 }
 
 .nav-link {
@@ -34,7 +36,7 @@ body {
 /* title h1 an image */
 h1 {
     font-family: Montserrat-Black, sans-serif;
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 1.5;
     font-weight: 900;
     color: white;
@@ -43,7 +45,8 @@ h1 {
 .iphone {
   width: 60%;
   transform: rotate(25deg);
-  margin-left: 100px;
+  position: absolute;
+  right: 30%;
 }
 
 /* download button */
@@ -55,6 +58,9 @@ h1 {
 #features{
     text-align: center;
     padding: 7rem 0;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 #features h3{
@@ -70,7 +76,6 @@ h1 {
     color: #ef8172;
     font-size: 3rem;
     margin-bottom: 1rem;
-
 }
 
 .features-icon:hover{
