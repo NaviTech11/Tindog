@@ -133,3 +133,34 @@ h2 {
 .pricing-column {
     padding: 3% 2%;
 }
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* ------CALL OF ACTION---- */
+
+#cta {
+    background-color: #ff4668;
+    text-align: center;
+    padding: 75px 100px;
+}
+
+#cta h3 {
+    font-family: Montserrat;
+    font-weight: 800;
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+/* ----FOOTER---- */
+
+
+
